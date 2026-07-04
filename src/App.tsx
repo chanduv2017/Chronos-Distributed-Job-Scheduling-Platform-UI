@@ -1,10 +1,10 @@
-import { Routes, Route } from 'react-router-dom';
-import Layout from './components/Layout';
-import Dashboard from './pages/Dashboard';
-import Jobs from './pages/Jobs';
-import JobDetail from './pages/JobDetail';
-import CreateJob from './pages/CreateJob';
-import DeadLetterQueue from './pages/DeadLetterQueue';
+import { Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
+import Dashboard from "./pages/Dashboard";
+import Jobs from "./pages/Jobs";
+import JobDetail from "./pages/JobDetail";
+import CreateJob from "./pages/CreateJob";
+import DeadLetterQueue from "./pages/DeadLetterQueue";
 
 export default function App() {
   return (
