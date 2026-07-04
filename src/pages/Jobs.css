@@ -1,0 +1,45 @@
+.page-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.filter-count {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  margin-left: auto;
+}
+
+.job-name-link {
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.job-name-link:hover {
+  color: var(--color-accent-hover);
+}
+
+.type-pill {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.type-cron {
+  background: var(--color-purple-bg);
+  color: var(--color-purple);
+}
+
+.type-delayed {
+  background: var(--color-info-bg);
+  color: var(--color-info);
+}
+
+.type-immediate {
+  background: var(--color-warning-bg);
+  color: var(--color-warning);
+}
